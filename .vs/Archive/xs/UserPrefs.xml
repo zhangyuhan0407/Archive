@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{9EC44DD3-1626-3DD8-1034-D2C31967D31B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Archive000/Level1/Scripts/DDTrigger.cs">
+    <Files>
+      <File FileName="Assets/Archive000/Level4/Scripts/LLBegining.cs" Line="69" Column="1" />
+      <File FileName="Assets/Archive000/Level4/Scripts/LLDialog.cs" />
+      <File FileName="Assets/Archive000/Level3/LLCharacter.cs" Line="29" Column="36" />
+      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" />
+      <File FileName="Assets/Archive000/Level1/Scripts/DDBrick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Archive000/Level1/Scripts/DDTrigger.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Archive" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Archive000" expanded="True">
+                <Node name="Level1" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="DDTrigger.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Level3" expanded="True" />
+                <Node name="Level4" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Analytics PreferredExecutionTarget="1fc53446-8895-42b3-8bb4-ac2b1b1c76d3" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
