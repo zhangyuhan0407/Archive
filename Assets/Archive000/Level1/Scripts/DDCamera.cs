@@ -6,6 +6,11 @@ public class DDCamera : MonoBehaviour
 {
     public GameObject anyObject;
 
+    public float maxX;
+    public float minX;
+    public float maxY;
+    public float minY;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,24 +22,24 @@ public class DDCamera : MonoBehaviour
     {
         var pos = anyObject.transform.position - new Vector3(0, 0, 10);
         
-        if(pos.x < -8.33f)
+        if(pos.x < minX)
         {
-            pos.x = -8.33f;
+            pos.x = minX;
         }
 
-        if (pos.x > 0.86f)
+        if (pos.x > maxX)
         {
-            pos.x = 0.86f;
+            pos.x = maxX;
         }
 
-        if (pos.y < -2f)
+        if (pos.y < minY)
         {
-            pos.y = -2f;
+            pos.y = minY;
         }
 
-        if (pos.y > 6.12f)
+        if (pos.y > maxY)
         {
-            pos.y = 6.12f;
+            pos.y = maxY;
         }
 
         transform.position = pos;
