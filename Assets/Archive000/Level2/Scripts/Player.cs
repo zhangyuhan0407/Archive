@@ -27,6 +27,10 @@ public class Player : MonoBehaviour
         {
             RotateLeft();
         }
+        else
+        {
+
+        }
 
         if (Input.GetKey(KeyCode.E))
         {

@@ -25,7 +25,6 @@ public class Bubble : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Space))
             {
-                //StartCoroutine(TurnLarge());
                 TurnLarge2();
             }
         }
@@ -34,24 +33,11 @@ public class Bubble : MonoBehaviour
 
     public void TurnLarge2()
     {
-        transform.DOScale(10, 1).OnComplete(() =>
+        transform.DOScale(100, 1).OnComplete(() =>
         {
             Destroy(gameObject);
             player.SetEnabled(true);
         });
-    }
-
-
-    IEnumerator TurnLarge()
-    {
-        while(transform.localScale.x < 50)
-        {
-            float a = transform.localScale.x * 1.01f;
-            transform.localScale = new Vector3(a,a,a);
-            yield return new WaitForEndOfFrame();
-        }
-        Destroy(gameObject);
-        player.SetEnabled(true);
     }
 
 
@@ -64,7 +50,6 @@ public class Bubble : MonoBehaviour
             player.SetEnabled(false);
         }
     }
-
 
 
     public void AbsorbPlayer()
